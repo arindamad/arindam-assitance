@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat Conversation</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="p-v-60" id="logIn">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+             <div class="form-group">
+               <input type="text" id="username" placeholder="@ueername" class="form-control input1">
+              </div>
+            </div>
+            <div class="col-md-4">
+             <div class="form-group">
+               <input id="password" type="password" placeholder="@password" class="form-control input1">
+              </div>
+            </div>
+            <div class="col-md-2">        
+                <button class="btn loginBtn" onclick="login()">Log In</button> 
+            </div>
+            <div class="col-md-12">
+              <p id="errorTxt"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section class="chatSection" id="chatSection" style="display: none;">
+        <div class="chatContainer">
+          <div class="chatBoxInner">
+            <div class="intro">
+                <div class="col"><h2>Mini arindam</h2></div>
+            </div>
+            <div id="print"></div>
+            <div class="sendBar">
+              <div class="row">
+              <div class="col"><input class="textInput" type="text" id="inputTxt"></div>
+              <div class="col-1 noPadding"><button class="senBtn" onclick="printEvent()"><i class="fa fa-paper-plane" aria-hidden="true"></i></button></div>
+            </div>
+            </div>      
+          </div>
+        </div>
+      </section>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/personal.js"></script>
+</body>
+</html>
