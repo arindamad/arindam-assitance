@@ -81,7 +81,7 @@ function printEvent(){
     ans = "When you remember me.";
     break; 
     case "do you love me":
-    ans = "Yes. and you know it .";
+    ans = "You know it. So this question is not valid";
     break;
     case "good morning":
     ans = "Morning";
