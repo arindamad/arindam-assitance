@@ -30,7 +30,6 @@ clear {
   background: #f2f2f2;
   overflow-y:scroll;
   padding: 15px 15px 30px;
-  margin: 42px 0;
 }
 .chatBoxInner{
     position: relative;
@@ -41,7 +40,7 @@ clear {
   background: #f2f2f2;
   padding: 15px;
     background: #f2f2f2;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -85,7 +84,7 @@ clear {
     background: #1B3340;
     color: #fff;
     padding: 10px 0;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
