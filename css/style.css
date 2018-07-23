@@ -26,7 +26,7 @@ clear {
 
 #print {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 110px);
   background: #f2f2f2;
   overflow-y:scroll;
   padding: 15px 15px 30px;
